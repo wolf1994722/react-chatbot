@@ -4,7 +4,7 @@
   bottom: 0;
   right: 0;
   margin: 10px;
-  position: absolute;
+  position: fixed;
   width: 350px;
 }
 
@@ -14,6 +14,7 @@
   height: 50px;
   bottom: 40px;
   right: 40px;
+  margin-bottom: 30px;
   float: right;
   background-color: #1e524c;
   color: #fff;

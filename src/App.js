@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import SimpleForm from './Components/chatbot/SimpleForm'
 import { Container } from 'react-bootstrap'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-//import Footer from './Components/Footer'
+import Footer from './Components/Footer'
 import Header from './Components/Header'
 import './App.css'
 
@@ -38,6 +38,7 @@ const App = (props) => {
           </div>
         </Container>
       </main>
+      <Footer />
     </Router>
   )
 }
