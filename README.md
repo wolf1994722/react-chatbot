@@ -14,6 +14,14 @@
  
 ```
 
+## Screenshot
+
+<p align="center">
+<img src="https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/Chat-Bot.png" width="750"/>
+</p>
+
+
+
 ### 🎉 Acknowledgements <a name = "acknowledgement"></a>
 - [React Simple Chatbot](https://github.com/LucasBassetti/react-simple-chatbot) 
 
