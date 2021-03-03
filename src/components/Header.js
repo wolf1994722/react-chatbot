@@ -8,7 +8,7 @@ const Header = () => {
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand>
-              <i class="fas fa-robot"></i> ChatBot
+              <i className="fas fa-robot"></i> ChatBot
             </Navbar.Brand>
           </LinkContainer>
 
@@ -22,7 +22,7 @@ const Header = () => {
               </LinkContainer>
               <LinkContainer to="/help">
                 <Nav.Link>
-                  <i class="fas fa-hands-helping"></i> Help
+                  <i className="fas fa-hands-helping"></i> Help
                 </Nav.Link>
               </LinkContainer>
             </Nav>

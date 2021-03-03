@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import SimpleForm from './Components/chatbot/SimpleForm'
 import { Container } from 'react-bootstrap'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-import Footer from './Components/Footer'
+//import Footer from './Components/Footer'
 import Header from './Components/Header'
 import './App.css'
 
@@ -20,7 +20,7 @@ const App = (props) => {
     <Router>
       <Header />
       <main className="py-3">
-        <Container className="bot">
+        <Container className="bot mb4">
           <div style={{ display: showChat ? 'none' : '' }}>
             <Route path="/" component={SimpleForm} exact />
           </div>
@@ -28,17 +28,16 @@ const App = (props) => {
           <div>
             {!showChat ? (
               <button className="btn" onClick={() => startChat()}>
-                <i class="fa fa-minus"></i>
+                <i className="fa fa-minus"></i>
               </button>
             ) : (
               <button className="btn" onClick={() => hideChat()}>
-                <i class="fa fa-plus"></i>
+                <i className="fa fa-plus"></i>
               </button>
             )}
           </div>
         </Container>
       </main>
-      <Footer />
     </Router>
   )
 }
