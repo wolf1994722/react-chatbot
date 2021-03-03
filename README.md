@@ -12,5 +12,9 @@
  
 ```
 
+### 🎉 Acknowledgements <a name = "acknowledgement"></a>
+- [React Simple Chatbot](https://github.com/LucasBassetti/react-simple-chatbot) 
+
+
 
 
