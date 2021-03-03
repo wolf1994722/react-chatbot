@@ -1,20 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Heebo:300&display=swap');
 
-body {
-  font-family: 'Heebo', sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  overflow: hidden;
-  margin: 0;
-}
-
 .bot {
   bottom: 0;
   right: 0;
-  margin: 0px 20px;
-  position: fixed;
+  position: absolute;
   width: 350px;
 }
 
@@ -25,13 +14,15 @@ body {
   bottom: 40px;
   right: 40px;
   float: right;
-  background-color: #5e88fc;
+  background-color: #1e524c;
   color: #fff;
   border-radius: 50px;
   text-align: center;
   box-shadow: 2px 2px 3px #999;
 }
-.btn:focus,
-.input:focus {
+.btn:hover {
+  opacity: 0.9;
+}
+.btn:focus {
   outline: none;
 }

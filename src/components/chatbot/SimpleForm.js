@@ -7,10 +7,10 @@ import Post from './Post'
 const theme = {
   background: '#f5f8fb',
   fontFamily: 'Helvetica Neue',
-  headerBgColor: '#264e86',
+  headerBgColor: '#0f4d4a',
   headerFontColor: '#fff',
   headerFontSize: '15px',
-  botBubbleColor: '#264e86',
+  botBubbleColor: '#0f4d4a',
   botFontColor: '#fff',
   userBubbleColor: '#fff',
   userFontColor: '#4a4a4a',
