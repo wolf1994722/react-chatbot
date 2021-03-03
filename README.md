@@ -17,7 +17,7 @@
 ## Screenshot
 
 <p align="center">
-<img src="https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/Chat-Bot.png" width="750"/>
+<img src="https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/Chat-Bot.png" width="300"/>
 </p>
 
 
