@@ -1,41 +1,24 @@
 import React, { useState } from 'react'
 import SimpleForm from './Components/chatbot/SimpleForm'
-import { Container } from 'react-bootstrap'
+import { Container, Jumbotron } from 'react-bootstrap'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Footer from './Components/Footer'
 import Header from './Components/Header'
+import Faq from './Components/Faq'
+import Help from './Components/Help'
 import './App.css'
 
-const App = (props) => {
-  let [showChat, setShowChat] = useState(false)
-
-  const startChat = () => {
-    setShowChat(true)
-  }
-  const hideChat = () => {
-    setShowChat(false)
-  }
-
+const App = () => {
   return (
     <Router>
       <Header />
       <main className="py-3">
-        <Container className="bot mb4">
-          <div style={{ display: showChat ? 'none' : '' }}>
+        <Container>
+          <div className="bot">
             <Route path="/" component={SimpleForm} exact />
           </div>
-          {/* <div> {showChat ? <SimpleForm></SimpleForm> : null} </div> */}
-          <div>
-            {!showChat ? (
-              <button className="btn" onClick={() => startChat()}>
-                <i className="fa fa-minus"></i>
-              </button>
-            ) : (
-              <button className="btn" onClick={() => hideChat()}>
-                <i className="fa fa-plus"></i>
-              </button>
-            )}
-          </div>
+          <Route path="/faq" component={Faq} />
+          <Route path="/help" component={Help} />
         </Container>
       </main>
       <Footer />

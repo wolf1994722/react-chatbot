@@ -1,9 +1,8 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import ChatBot from 'react-simple-chatbot'
 import { ThemeProvider } from 'styled-components'
 import Post from './Post'
-
-// all available theme props
+import '../../App.css'
 const theme = {
   background: '#f5f8fb',
   fontFamily: 'Helvetica Neue',
@@ -25,10 +24,19 @@ const config = {
   headerTitle: 'ChatBot',
 }
 
-class SimpleForm extends Component {
-  render() {
-    return (
-      <ThemeProvider theme={theme}>
+const SimpleForm = (props) => {
+  let [showChat, setShowChat] = useState(false)
+
+  const startChat = () => {
+    setShowChat(true)
+  }
+  const hideChat = () => {
+    setShowChat(false)
+  }
+
+  return (
+    <ThemeProvider theme={theme}>
+      <div style={{ display: showChat ? 'none' : '' }}>
         <ChatBot
           speechSynthesis={{ enable: true, lang: 'en' }}
           recognitionEnable={true}
@@ -147,9 +155,21 @@ class SimpleForm extends Component {
           ]}
           {...config}
         />
-      </ThemeProvider>
-    )
-  }
+      </div>
+      {/* <div> {showChat ? <SimpleForm></SimpleForm> : null} </div> */}
+      <div>
+        {!showChat ? (
+          <button className="btn" onClick={() => startChat()}>
+            <i className="fa fa-minus"></i>
+          </button>
+        ) : (
+          <button className="btn" onClick={() => hideChat()}>
+            <i className="fa fa-plus"></i>
+          </button>
+        )}
+      </div>
+    </ThemeProvider>
+  )
 }
 
 export default SimpleForm
