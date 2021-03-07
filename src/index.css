@@ -2,5 +2,5 @@ main {
   min-height: 80vh;
 }
 body {
-  overflow: hidden;
+  overflow: auto;
 }

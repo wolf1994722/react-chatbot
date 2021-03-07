@@ -90,7 +90,7 @@ const SimpleForm = (props) => {
               id: 'zip',
               user: true,
               validator: (value) => {
-                if (/^[0-9]{5}(?:-[0-9]{4})?$/.test(value)) {
+                if (/^[0-9]{6}(?:-[0-9]{4})?$/.test(value)) {
                   return true
                 } else {
                   return 'Please enter a vaild zip code.'
