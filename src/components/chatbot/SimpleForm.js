@@ -49,7 +49,7 @@ const SimpleForm = (props) => {
             /* Paste */
             {
               id: 'q-firstname',
-              message: 'What is your first name?',
+              message: 'What is your  name?',
               trigger: 'firstname',
             },
             {
@@ -62,89 +62,59 @@ const SimpleForm = (props) => {
                   return 'Please input alphabet characters only.'
                 }
               },
-              trigger: 'q-lastname',
+              trigger: 'rmcbot',
             },
             {
-              id: 'q-lastname',
-              message: 'Hello, {previousValue}. What is your last name?',
-              trigger: 'lastname',
+              id: 'rmcbot',
+              message:
+                'Hi,{previousValue} I am RMC Bot! What can I do for you?',
+              trigger: 'qtype',
             },
             {
-              id: 'lastname',
-              user: true,
-              validator: (value) => {
-                if (/^[A-Za-z]+$/.test(value)) {
-                  return true
-                } else {
-                  return 'Please input alphabet characters only.'
-                }
-              },
-              trigger: 'q-zip',
+              id: 'qtype',
+              options: [
+                { value: 1, label: 'Property Tax ?', trigger: '4' },
+                { value: 2, label: ' Professional Tax ?', trigger: '3' },
+                { value: 3, label: 'Election Department', trigger: '5' },
+              ],
             },
             {
-              id: 'q-zip',
-              message: 'Please enter your zip code.',
-              trigger: 'zip',
+              id: '3',
+              message:
+                'Profession tax is the tax levied and collected by the state governments in India.',
+              trigger: 'qtype',
             },
             {
-              id: 'zip',
-              user: true,
-              validator: (value) => {
-                if (/^[0-9]{6}(?:-[0-9]{4})?$/.test(value)) {
-                  return true
-                } else {
-                  return 'Please enter a vaild zip code.'
-                }
-              },
-              trigger: 'q-email',
+              id: '4',
+              message:
+                'A property tax or millage rate is an ad valorem tax on the value of a property.',
+              trigger: 'qtype',
             },
             {
-              id: 'q-email',
-              message: 'What is you email?',
-              trigger: 'email',
-            },
-            {
-              id: 'email',
-              user: true,
-              trigger: 'q-phone',
-            },
-            {
-              id: 'q-phone',
-              message: 'What is your phone number?',
-              trigger: 'phone',
-            },
-            {
-              id: 'phone',
-              user: true,
-              validator: (value) => {
-                if (
-                  /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/.test(
-                    value
-                  )
-                ) {
-                  return true
-                } else {
-                  return 'Please enter a valid phone number.'
-                }
-              },
+              id: '5',
+              message:
+                'An election is a way people can choose their candidate or their preferences in a representative democracy or other form of government',
               trigger: 'q-submit',
             },
             {
               id: 'q-submit',
-              message: 'Do you wish to submit?',
+              message: 'Do you have any other questions !?',
               trigger: 'submit',
             },
             {
               id: 'submit',
               options: [
-                { value: 'y', label: 'Yes', trigger: 'end-message' },
-                { value: 'n', label: 'No', trigger: 'no-submit' },
+                { value: 'y', label: 'Yes', trigger: 'no-submit' },
+                { value: 'n', label: 'No', trigger: 'end-message' },
               ],
             },
             {
               id: 'no-submit',
-              message: 'Your information was not submitted.',
-              end: true,
+              options: [
+                { value: 1, label: 'Property Tax ?', trigger: '4' },
+                { value: 2, label: ' Professional Tax ?', trigger: '3' },
+                { value: 3, label: 'Election Department', trigger: '5' },
+              ],
             },
             {
               id: 'end-message',

@@ -5,18 +5,14 @@ class Post extends Component {
   constructor(props) {
     super(props)
     const { steps } = this.props
-    const { firstname, lastname, zip, phone, pets, email } = steps
+    const { firstname } = steps
 
-    this.state = { firstname, lastname, zip, phone, pets, email }
+    this.state = { firstname }
   }
 
   componentDidMount() {
     const userObject = {
       first_name: this.state.firstname.value,
-      last_name: this.state.lastname.value,
-      zip_code: this.state.zip.value,
-      phone: this.state.phone.value,
-      email: this.state.email.value,
     }
     axios
       .post(`/api`, userObject)
@@ -29,7 +25,7 @@ class Post extends Component {
   }
 
   render() {
-    return <div>Thank you! Your data was submitted successfully!</div>
+    return <div>Good to see you!</div>
   }
 }
 
