@@ -14,10 +14,10 @@
  
 ```
 
-## Screenshot
+## Sample
 
 <p align="center">
-<img src="https://github.com/Akash52/awesome-Javascript-collection/blob/master/Awesome-JavaScript-Example/Images/Chat-Bot.png" width="300"/>
+<img src="https://github.com/Akash52/react-chatbot/blob/master/public/images/sample.gif?raw=true" width="300 height="300"/>
 </p>
 
 
