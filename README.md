@@ -1,7 +1,7 @@
 # React Chat-Bot using simple-react-chatbot
 ---
 
-[Live Demo](https://hackathonbot.netlify.app/)
+[Live Demo](https://rmcchatbott.netlify.app/)
 
 ### How to setup on your machine
 
