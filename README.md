@@ -5,7 +5,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Project Purpose was people can efficiently solve his/her queris
+Project Purpose was people can efficiently solve his/her queris using chatbot
 
 ### Prerequisites
 
