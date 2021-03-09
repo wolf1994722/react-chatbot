@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import ChatBot from 'react-simple-chatbot'
 import { ThemeProvider } from 'styled-components'
 import Post from './Post'
+import Link from './Link'
 import '../../App.css'
 const theme = {
   background: '#f5f8fb',
@@ -76,6 +77,7 @@ const SimpleForm = (props) => {
                 { value: 1, label: 'Property Tax ?', trigger: '4' },
                 { value: 2, label: ' Professional Tax ?', trigger: '3' },
                 { value: 3, label: 'Election Department', trigger: '5' },
+                { value: 4, label: 'More Information', trigger: '6' },
               ],
             },
             {
@@ -94,6 +96,11 @@ const SimpleForm = (props) => {
               id: '5',
               message:
                 'An election is a way people can choose their candidate or their preferences in a representative democracy or other form of government',
+              trigger: 'q-submit',
+            },
+            {
+              id: '6',
+              component: <Link />,
               trigger: 'q-submit',
             },
             {

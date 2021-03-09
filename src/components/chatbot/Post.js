@@ -25,7 +25,9 @@ class Post extends Component {
   }
 
   render() {
-    return <div>Good to see you!</div>
+    return (
+      <div speechSynthesis={{ enable: true, lang: 'en' }}>Good to see you!</div>
+    )
   }
 }
 
