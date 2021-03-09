@@ -3,7 +3,16 @@
 
 [Live Demo](https://rmcchatbott.netlify.app/)
 
-### How to setup on your machine
+## 🧐 About <a name = "about"></a>
+
+Project Purpose was people can efficiently solve his/her queris
+
+### Prerequisites
+
+- NodeJS
+
+
+### Installing
 
 ```
  - git clone https://github.com/Akash52/react-chatbot
@@ -13,6 +22,11 @@
  - The demo will be live at http://localhost:3000/
  
 ```
+
+
+## ⛏️ Built Using <a name = "built_using"></a>
+
+- ReactJS
 
 ## Sample
 
