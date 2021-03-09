@@ -17,7 +17,7 @@
 ## Sample
 
 <p align="center">
-<img src="https://github.com/Akash52/react-chatbot/blob/master/public/images/sample.gif?raw=true" width="300 height="300"/>
+<img src="https://github.com/Akash52/react-chatbot/blob/master/public/images/sample.gif?raw=true" width="500 height="500"/>
 </p>
 
 
