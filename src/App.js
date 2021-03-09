@@ -6,7 +6,6 @@ import Footer from './Components/Footer'
 import Header from './Components/Header'
 import Faq from './Components/Faq'
 import Help from './Components/Help'
-import Slider from './Components/Slider'
 import './App.css'
 
 const App = () => {
