@@ -9,7 +9,7 @@ Project Purpose was people can efficiently solve his/her queries using chatbot
 
 ### Prerequisites
 
-- NodeJS
+- [NodeJS](https://nodejs.org/en/)
 
 
 ### Installing
@@ -26,7 +26,8 @@ Project Purpose was people can efficiently solve his/her queries using chatbot
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- ReactJS
+- [ReactJS](https://reactjs.org/)
+- [React Bootstrap](https://react-bootstrap.github.io/)
 
 ## Sample
 
