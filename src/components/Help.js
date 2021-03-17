@@ -18,8 +18,16 @@ const Help = () => {
         <Jumbotron fluid>
           <h3>Help</h3>
           <h5>
-            - Property Tax , Professional Tax , Shops & Establishment , Election
-            Department , Building Plan Approval
+            <p>- Property Tax , Professional Tax , Shops & Establishment , Election
+            Department , Building Plan Approval</p>
+          </h5>
+        </Jumbotron>
+        <Jumbotron fluid>
+          <h3>Contact</h3>
+          <h5>
+            <p> Fax: +91-281-2224258</p>
+            <p> E-Mail:<a href="mailto:mc_rmc@yahoo.co.in"> mc_rmc@rmc.gov.in</a>  </p>
+            <p> Website: <a href="http://www.rmc.gov.in/rmcwebsite/default.aspx" > www.rmc.gov.in</a></p>
           </h5>
         </Jumbotron>
       </Container>
