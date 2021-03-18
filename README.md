@@ -51,7 +51,7 @@ Project Purpose was people can efficiently solve his/her queries using chatbot
  - Light Weight 
  - Single Page Appliaction (SPA)
 
-## Feel Free to use your Education purpose ! 
+## Feel Free to use your upcoming projects ! 
 
 ### 🎉 Acknowledgements <a name = "acknowledgement"></a>
 - [React Simple Chatbot](https://github.com/LucasBassetti/react-simple-chatbot) 
