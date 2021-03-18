@@ -13,14 +13,15 @@ const App = () => {
   return (
     <Router>
       <Header />
+
       <main className="py-3">
-        <Slider />
         <Container>
           <div className="bot">
             <Route path="/" component={SimpleForm} exact />
           </div>
           <Route path="/faq" component={Faq} />
           <Route path="/help" component={Help} />
+          <Slider />
         </Container>
       </main>
       <Footer />
