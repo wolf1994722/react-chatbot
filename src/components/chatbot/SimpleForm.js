@@ -39,7 +39,7 @@ const SimpleForm = (props) => {
     <ThemeProvider theme={theme}>
       <div style={{ display: showChat ? 'none' : '' }}>
         <ChatBot
-          speechSynthesis={{ enable: true, lang: 'en' }}
+          speechSynthesis={{ enable: true, lang: 'hi-IN' }}
           recognitionEnable={true}
           steps={[
             {
@@ -96,7 +96,7 @@ const SimpleForm = (props) => {
               id: '5',
               message:
                 'An election is a way people can choose their candidate or their preferences in a representative democracy or other form of government',
-              trigger: 'q-submit',
+              trigger: 'qtype',
             },
             {
               id: '6',
@@ -121,6 +121,7 @@ const SimpleForm = (props) => {
                 { value: 1, label: 'Property Tax ?', trigger: '4' },
                 { value: 2, label: ' Professional Tax ?', trigger: '3' },
                 { value: 3, label: 'Election Department', trigger: '5' },
+                { value: 4, label: 'More Information', trigger: '6' },
               ],
             },
             {
@@ -133,7 +134,6 @@ const SimpleForm = (props) => {
           {...config}
         />
       </div>
-      {/* <div> {showChat ? <SimpleForm></SimpleForm> : null} </div> */}
       <div>
         {!showChat ? (
           <button className="btn" onClick={() => startChat()}>

@@ -6,6 +6,7 @@
   margin: 10px;
   position: fixed;
   width: 350px;
+  z-index: 3;
 }
 
 .btn {
@@ -29,4 +30,6 @@
   outline: none;
 }
 
-a{text-decoration: none}
+a {
+  text-decoration: none;
+}
