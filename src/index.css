@@ -36,11 +36,12 @@ h2 {
 }
 
 .carousel img {
-  height: 300px;
+  height: 400px;
   padding: 30px;
   margin: 40px;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0 9px 33px rgba(0, 0, 0, 0.07);
 }
 .carousel a {
   margin: 0 auto;

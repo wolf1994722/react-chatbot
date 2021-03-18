@@ -21,7 +21,8 @@ const App = () => {
           </div>
           <Route path="/faq" component={Faq} />
           <Route path="/help" component={Help} />
-          <Slider />
+
+          <Route path="/" component={Slider} exact />
         </Container>
       </main>
       <Footer />
