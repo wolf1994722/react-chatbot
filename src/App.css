@@ -6,7 +6,7 @@
   margin: 10px;
   position: fixed;
   width: 350px;
-  z-index: 3;
+  z-index: 9;
 }
 
 .btn {
@@ -32,4 +32,9 @@
 
 a {
   text-decoration: none;
+}
+
+.img {
+  height: 200px;
+  width: 300px;
 }

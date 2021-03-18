@@ -7,12 +7,14 @@ import Header from './Components/Header'
 import Faq from './Components/Faq'
 import Help from './Components/Help'
 import './App.css'
+import Slider from './Components/Slider'
 
 const App = () => {
   return (
     <Router>
       <Header />
       <main className="py-3">
+        <Slider />
         <Container>
           <div className="bot">
             <Route path="/" component={SimpleForm} exact />
