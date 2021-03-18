@@ -3,7 +3,7 @@
 
 [Live Demo](https://rmcchatbott.netlify.app/)
 
-## 🧐 About <a name = "about"></a>
+##  About <a name = "about"></a>
 
 Project Purpose was people can efficiently solve his/her queries using chatbot
 
@@ -38,9 +38,20 @@ Project Purpose was people can efficiently solve his/her queries using chatbot
   <p align="center">
 <img src="https://github.com/Akash52/react-chatbot/blob/master/public/images/Chat-Bot.png?raw=true" width="500 height="500"/>
 </p>
-                                                                                                 
+                                                                                                                           
+                                                                                                                  
+ ## Features
+ 
+ - Fully Progressive Web Application
+ - Easily modified 
+ - Interact with chatBot
+ - Customizable
+ - Easy to configuration
+ - Simple to use
+ - Light Weight 
+ - Single Page Appliaction (SPA)
 
-
+## Feel Free to use your Education purpose ! 
 
 ### 🎉 Acknowledgements <a name = "acknowledgement"></a>
 - [React Simple Chatbot](https://github.com/LucasBassetti/react-simple-chatbot) 
