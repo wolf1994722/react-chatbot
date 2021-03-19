@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import SimpleForm from './Components/chatbot/SimpleForm'
-import { Container, Jumbotron } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Footer from './Components/Footer'
 import Header from './Components/Header'

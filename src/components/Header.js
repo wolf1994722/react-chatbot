@@ -1,7 +1,7 @@
 import React from 'react'
 import { LinkContainer } from 'react-router-bootstrap'
 import { Nav, Navbar, Container } from 'react-bootstrap'
-import Slider from './Slider'
+
 const Header = () => {
   return (
     <div>
