@@ -12,7 +12,7 @@ Project Purpose was people can efficiently solve his/her queries using chatbot
 - [NodeJS](https://nodejs.org/en/)
 
 
-### Installing
+### Installing your local machine
 
 ```
  - git clone https://github.com/Akash52/react-chatbot
@@ -22,6 +22,18 @@ Project Purpose was people can efficiently solve his/her queries using chatbot
  - The demo will be live at http://localhost:3000/
  
 ```
+
+ ## Features
+ 
+ - Fully Progressive Web Application
+ - Single Page Appliacation (SPA)
+ - Easily modified 
+ - Interact with chatBot
+ - Customizable
+ - Easy to configuration
+ - Easy to use
+ - Light Weight 
+ - Responsive
 
 
 ## ⛏️ Built Using <a name = "built_using"></a>
@@ -40,16 +52,7 @@ Project Purpose was people can efficiently solve his/her queries using chatbot
 </p>
                                                                                                                            
                                                                                                                   
- ## Features
- 
- - Fully Progressive Web Application
- - Easily modified 
- - Interact with chatBot
- - Customizable
- - Easy to configuration
- - Simple to use
- - Light Weight 
- - Single Page Appliaction (SPA)
+
 
 ## Feel Free to use your upcoming projects ! 
 
