@@ -44,16 +44,10 @@ Project Purpose was people can efficiently solve his/her queries using chatbot
 ## Sample
 
 <p align="center">
-<img src="https://github.com/Akash52/react-chatbot/blob/master/public/images/sample.gif?raw=true" width="500 height="500"/>
+<img src="https://github.com/Akash52/react-chatbot/blob/master/public/images/ChatBot.gif?raw=true" width="600 height="600"/>
 </p>
   
-  <p align="center">
-<img src="https://github.com/Akash52/react-chatbot/blob/master/public/images/Chat-Bot.png?raw=true" width="500 height="500"/>
-</p>
-                                                                                                                           
-                                                                                                                  
-
-
+                                                                                                                                                                                
 ## Feel Free to use your upcoming projects ! 
 
 ### 🎉 Acknowledgements <a name = "acknowledgement"></a>
