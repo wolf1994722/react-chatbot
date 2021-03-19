@@ -10,6 +10,7 @@ Project Purpose was people can efficiently solve his/her queries using chatbot
 ### Prerequisites
 
 - [NodeJS](https://nodejs.org/en/)
+- [Git Bash](https://git-scm.com/downloads)
 
 
 ### Installing your local machine
