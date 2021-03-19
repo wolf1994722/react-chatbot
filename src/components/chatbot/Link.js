@@ -1,30 +1,80 @@
 import React from 'react'
 import '../../App.css'
+import { Table } from 'react-bootstrap'
 
 const Link = () => {
   return (
     <div>
-      <a
-        style={{ textDecoration: 'none' }}
-        href="http://www.rmc.gov.in/rmcwebsite/default.aspx"
-        target="_blank"
-      >
-        <p>1.Official RMC Website</p>
-      </a>
-      <a
-        style={{ textDecoration: 'none' }}
-        href="https://www.rmcegov.gov.in/payonline/proftax.php"
-        target="_blank"
-      >
-        <p>2.Professional Tax</p>
-      </a>
-      <a
-        style={{ textDecoration: 'none' }}
-        href="https://www.rmcegov.gov.in/payonline/propertytax.php"
-        target="_blank"
-      >
-        3.PropertyTax
-      </a>
+      <Table striped bordered hover variant="dark">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Useful Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>
+              <a
+                style={{ textDecoration: 'none' }}
+                href="http://www.rmc.gov.in/rmcwebsite/tax_bill_receipt_new.aspx"
+                target="_blank"
+              >
+                Property Tax Bills/Receipt
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>
+              <a
+                style={{ textDecoration: 'none' }}
+                href="http://www.rmc.gov.in/rmcwebsite/birth_death_certificate.aspx"
+                target="_blank"
+              >
+                Birth & Death
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>
+              <a
+                style={{ textDecoration: 'none' }}
+                href="http://www.rmc.gov.in/rmcwebsite/tax_new.aspx"
+                target="_blank"
+              >
+                Property Tax
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>
+              <a
+                style={{ textDecoration: 'none' }}
+                href="http://www.rmc.gov.in/rmcwebsite/frm_sports_member_master.aspx"
+                target="_blank"
+              >
+                Sports Registration
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>
+              <a
+                style={{ textDecoration: 'none' }}
+                href="http://www.rmc.gov.in/rmcwebsite/onlineservice.aspx"
+                target="_blank"
+              >
+                Online Services
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </Table>
     </div>
   )
 }
