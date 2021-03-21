@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import SimpleForm from './Components/chatbot/SimpleForm'
+import Chatbot from './Components/chatbot/Chatbot'
 import { Container } from 'react-bootstrap'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Footer from './Components/Footer'
@@ -17,7 +17,7 @@ const App = () => {
       <main className="py-3">
         <Container>
           <div className="bot">
-            <Route path="/" component={SimpleForm} exact />
+            <Route path="/" component={Chatbot} exact />
           </div>
           <Route path="/faq" component={Faq} />
           <Route path="/help" component={Help} />

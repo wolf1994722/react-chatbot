@@ -25,7 +25,7 @@ const config = {
   headerTitle: 'ChatBot',
 }
 
-const SimpleForm = (props) => {
+const Chatbot = (props) => {
   let [showChat, setShowChat] = useState(false)
 
   const startChat = () => {
@@ -39,7 +39,7 @@ const SimpleForm = (props) => {
     <ThemeProvider theme={theme}>
       <div style={{ display: showChat ? 'none' : '' }}>
         <ChatBot
-          speechSynthesis={{ enable: true, lang: 'hi-IN' }}
+          speechSynthesis={{ enable: true, lang: 'en-US' }}
           recognitionEnable={true}
           steps={[
             {
@@ -149,4 +149,4 @@ const SimpleForm = (props) => {
   )
 }
 
-export default SimpleForm
+export default Chatbot
