@@ -1,7 +1,7 @@
 # React Chat-Bot using simple-react-chatbot
 ---
 
-[Live Demo](https://rmcchatbott.netlify.app/)
+[Github Pages Live Demo](https://akash52.github.io/)
 
 ##  About <a name = "about"></a>
 
