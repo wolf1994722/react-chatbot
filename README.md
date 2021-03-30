@@ -20,7 +20,7 @@ Project Purpose was people can efficiently solve his/her queries using chatbot
  - cd react-chatbot
  - npm install (these command install relevant dependencies)
  - npm start 
- - The demo will be live at http://localhost:3000/
+  The demo will be live at `http://localhost:3000`
  
 ```
 
