@@ -26,12 +26,6 @@ Project Purpose was people can efficiently solve his/her queries using chatbot
  
  - Fully Progressive Web Application
  - Single Page Appliacation (SPA)
- - Easily modified 
- - Interact with chatBot
- - Customizable
- - Easy to configuration
- - Easy to use
- - Light Weight 
  - Responsive
 
 
