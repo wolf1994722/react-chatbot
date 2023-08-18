@@ -15,7 +15,7 @@ Project Purpose was people can efficiently solve his/her queries using chatbot
 
 ### Installing your local machine
 
- - git clone https://github.com/Akash52/react-chatbot
+ - git clone https://github.com/codeEye0123/react-chatbot
  - cd react-chatbot
  - npm install (these command install relevant dependencies)
  - npm start 
@@ -37,14 +37,13 @@ Project Purpose was people can efficiently solve his/her queries using chatbot
 ## Sample
 
 <p align="center">
-<img src="https://github.com/Akash52/react-chatbot/blob/master/public/images/ChatBot.gif?raw=true" width="600 height="600"/>
+<img src="https://github.com/codeEye0123/react-chatbot/blob/master/public/images/ChatBot.gif?raw=true" width="600 height="600"/>
 </p>
   
                                                                                                                                                                                 
 ## Feel Free to use your upcoming projects ! 
 
 ### 🎉 Acknowledgements <a name = "acknowledgement"></a>
-- [React Simple Chatbot](https://github.com/LucasBassetti/react-simple-chatbot) 
 
 
 
