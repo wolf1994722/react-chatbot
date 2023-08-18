@@ -37,7 +37,7 @@ Project Purpose was people can efficiently solve his/her queries using chatbot
 ## Sample
 
 <p align="center">
-<img src="https://github.com/codeEye0123/react-chatbot/blob/master/public/images/ChatBot.gif?raw=true" width="600 height="600"/>
+<img src="https://github.com/codeEye0123/react-chatbot/public/images/ChatBot.gif?raw=true" width="600 height="600"/>
 </p>
   
                                                                                                                                                                                 
